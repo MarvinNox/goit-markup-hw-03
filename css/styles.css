@@ -16,7 +16,13 @@ img {
   max-width: 100%;
   margin-bottom: 32px;
 }
-
+.container { 
+max-width: 1158px;
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right:  
+}
 main {
   flex-grow: 1;
 }
@@ -61,6 +67,7 @@ a:hover {
 .wrapper-header {
   background-color: #ffffff;
   width: 100%;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-item {
   display: flex;
@@ -69,7 +76,7 @@ a:hover {
   padding-bottom: 24px;
   margin: auto;
   align-items: center;
-  width: 1130px;
+  width: 1158px;
 }
 .header-contacts {
   font-style: normal;
