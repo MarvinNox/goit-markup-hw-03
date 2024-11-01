@@ -22,190 +22,222 @@
   </head>
   <body>
     <!------HEADER STARTS-->
-
     <header class="wrapper-header">
-      <div class="header-item">
-        <nav>
+      <div class="container">
+        <nav class="navig-continer">
           <!--LOGO starts-->
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio">Studio</span></a
           >
           <!--LOGO ends-->
-          <ul class="nav">
+          <ul class="nav-menu">
             <li><a href="./index.html" class="link-nav">Studio</a></li>
             <li><a href="" class="link-nav">Portfolio</a></li>
             <li><a href="" class="link-nav">Contacts</a></li>
           </ul>
+          <address class="header-contacts">
+            <ul class="nav-menu">
+              <li>
+                <a href="mailto:info@devstudio.com" class="link-contacts"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="link-contacts"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
         </nav>
-        <address class="header-contacts">
-          <ul class="nav">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link-contacts"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="link-contacts"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
     </header>
     <!----MAIN STARTS-->
     <main>
       <!--SECTION 1-->
       <section class="main-page">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-main">Order Service</button>
+        <div class="container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="button-main">Order Service</button>
+        </div>
       </section>
       <!--SECTION 2 -- LIST OF advantages -->
       <section class="advantages-wrapper">
-        <h3 class="title-third">List of Advantages</h3>
-        <ul class="advantages-list">
-          <li class="advantages-item">
-            <h3 class="title-third">Strategy</h3>
-            <p class="small-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="title-third">Punctuality</h3>
-            <p class="small-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="title-third">Diligence</h3>
-            <p class="small-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="title-third">Technologies</h3>
-            <p class="small-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-third visually-hidden">List of Advantages</h2>
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <h3 class="title-third">Strategy</h3>
+              <p class="small-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <h3 class="title-third">Punctuality</h3>
+              <p class="small-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <h3 class="title-third">Diligence</h3>
+              <p class="small-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="advantages-item">
+              <h3 class="title-third">Technologies</h3>
+              <p class="small-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--SECTION 3 -- OUR Team section-->
       <section class="wrapper-team">
-        <h2 class="title-second">Our Team</h2>
-        <ul class="wrapper-team-list">
-          <li class="team-card">
-            <img src="./images/img-3.jpg" alt="Mark Guerrero" />
-            <h3 class="title-third">Mark Guerrero</h3>
-            <p class="small-text">Product Designer</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/img-2.jpg"
-              alt="Tom Ford"
-              width="264"
-              height="260"
-            />
-            <h3 class="title-third">Tom Ford</h3>
-            <p class="small-text">Frontend Developer</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/img-1.jpg"
-              alt="Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3 class="title-third">Camila Garcia</h3>
-            <p class="small-text">Marketing</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/img-0.jpg"
-              alt="Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3 class="title-third">Daniel Wilson</h3>
-            <p class="small-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-second">Our Team</h2>
+          <ul class="wrapper-team-list">
+            <li class="team-card">
+              <img
+                src="./images/img-3.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                height="260"
+              />
+              <div class="team-card-name">
+                <h3 class="title-third">Mark Guerrero</h3>
+                <p class="small-text">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/img-2.jpg"
+                alt="Tom Ford"
+                width="264"
+                height="260"
+              />
+              <div class="team-card-name">
+                <h3 class="title-third">Tom Ford</h3>
+                <p class="small-text">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/img-1.jpg"
+                alt="Camila Garcia"
+                width="264"
+                height="260"
+              />
+              <div class="team-card-name">
+                <h3 class="title-third">Camila Garcia</h3>
+                <p class="small-text">Marketing</p>
+              </div>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/img-0.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                height="260"
+              />
+              <div class="team-card-name">
+                <h3 class="title-third">Daniel Wilson</h3>
+                <p class="small-text">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- SECTION 4 -- Our Portfolio-->
       <section class="wrapper-portf">
-        <h2 class="title-second">Our Portfolio</h2>
-        <ul class="wrapper-portf-list">
-          <li class="portf-card">
-            <img
-              src="./images/img-portf-1.jpg"
-              alt="Banking App"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-third">Banking App</h3>
-            <p class="small-text">App</p>
-          </li>
-          <li class="portf-card">
-            <img
-              src="./images/img-portf-2.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-third">Cashless Payment</h3>
-            <p class="small-text">Marketing</p>
-          </li>
-          <li class="portf-card">
-            <img
-              src="./images/img-portf-3.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-third">Meditation App</h3>
-            <p class="small-text">App</p>
-          </li>
-          <li class="portf-card">
-            <img
-              src="./images/img-portf-4.jpg"
-              alt="Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-third">Taxi Service</h3>
-            <p class="small-text">Marketing</p>
-          </li>
-          <li class="portf-card">
-            <img
-              src="./images/img-portf-5.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-third">Screen Illustrations</h3>
-            <p class="small-text">Design</p>
-          </li>
-          <li class="portf-card">
-            <img
-              src="./images/img-portf-6.jpg"
-              alt="Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-third">Online Courses</h3>
-            <p class="small-text">Marketing</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-second">Our Portfolio</h2>
+          <ul class="wrapper-portf-list">
+            <li class="portf-card">
+              <img
+                src="./images/img-portf-1.jpg"
+                alt="Banking App"
+                width="360"
+                height="300"
+              />
+              <div class="portf-card-name">
+                <h3 class="title-third">Banking App</h3>
+                <p class="small-text">App</p>
+              </div>
+            </li>
+            <li class="portf-card">
+              <img
+                src="./images/img-portf-2.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              />
+              <div class="portf-card-name">
+                <h3 class="title-third">Cashless Payment</h3>
+                <p class="small-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portf-card">
+              <img
+                src="./images/img-portf-3.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="portf-card-name">
+                <h3 class="title-third">Meditation App</h3>
+                <p class="small-text">App</p>
+              </div>
+            </li>
+            <li class="portf-card">
+              <img
+                src="./images/img-portf-4.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300"
+              />
+              <div class="portf-card-name">
+                <h3 class="title-third">Taxi Service</h3>
+                <p class="small-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portf-card">
+              <img
+                src="./images/img-portf-5.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <div class="portf-card-name">
+                <h3 class="title-third">Screen Illustrations</h3>
+                <p class="small-text">Design</p>
+              </div>
+            </li>
+            <li class="portf-card">
+              <img
+                src="./images/img-portf-6.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300"
+              />
+              <div class="portf-card-name">
+                <h3 class="title-third">Online Courses</h3>
+                <p class="small-text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!---FOOTER STARTS-->
     <footer class="wrapper-footer">
-      <div class="footer-item">
-        <a href="./index.html" class="logo"
+      <div class="container">
+        <a href="./index.html" class="logo-footer"
           >Web<span class="logo-studio-white">Studio</span></a
         >
         <p class="small-text-footer">
