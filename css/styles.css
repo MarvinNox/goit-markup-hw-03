@@ -175,7 +175,7 @@ a:hover {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-  margin-left: 164px;
+  margin: 0 auto;
 }
 .button-main:hover {
   background-color: #404bbf;
@@ -193,6 +193,8 @@ a:hover {
   max-width: 496px;
   margin-top: 0;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title-second {
   color: #2e2f42;
@@ -218,13 +220,14 @@ ul {
   list-style: none;
 }
 .wrapper-main-page {
+  display: flex;
+
   background-color: #2e2f42;
   margin-top: 0px;
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
-  justify-items: center;
 }
+
 .nav-list {
   gap: 40px;
   margin: 0 auto;
