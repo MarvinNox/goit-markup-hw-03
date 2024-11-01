@@ -47,6 +47,7 @@ img {
 .wrapper-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 .wrapper-footer {
   background-color: #2e2f42;
@@ -60,7 +61,8 @@ img {
   display: block;
 }
 .visually-hidden {
-  width: 1px;
+  display: none;
+  /*width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
@@ -70,7 +72,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
   outline: 0;
-  outline-offset: 0;
+  outline-offset: 0;*/
 }
 .advantages-wrapper {
   margin: 0 auto;
@@ -79,7 +81,7 @@ img {
   padding-bottom: 120px;
   justify-content: center;
 }
-.wrapper-team-list {
+.team-list {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -214,20 +216,13 @@ a:hover {
 ul {
   list-style: none;
 }
-.first-block {
-  padding: 0;
-}
-.main-page {
+.wrapper-main-page {
   background-color: #2e2f42;
   margin-top: 0px;
   padding-top: 188px;
   padding-bottom: 188px;
   display: flex;
   justify-items: center;
-}
-.navig-container {
-  display: flex;
-  align-items: center;
 }
 .nav-list {
   gap: 40px;
@@ -239,11 +234,14 @@ ul {
 }
 .contacts-list {
   gap: 40px;
-  margin: 0 0;
   display: flex;
   padding: 0;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin: 0;
+}
+.contacts-list-item {
+  display: flex;
 }
 .link-nav {
   color: #2e2f42;
@@ -287,7 +285,6 @@ ul {
   margin-top: 0;
   width: 264px;
 }
-
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -296,7 +293,6 @@ ul {
   padding: 0;
   gap: 24px;
 }
-
 .advantages-item {
   text-align: left;
   width: calc((100% - 3 * 24px) / 4);
