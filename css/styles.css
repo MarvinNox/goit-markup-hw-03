@@ -150,6 +150,10 @@ a:hover {
   display: flex;
   align-items: center;
 }
+
+.header-flex {
+  display: flex;
+}
 .header-contacts {
   font-style: normal;
   display: flex;
@@ -242,8 +246,7 @@ ul {
   padding-bottom: 24px;
   margin: 0 auto;
 }
-.contacts-list-item {
-}
+
 .link-nav {
   color: #2e2f42;
   font-weight: 500;
