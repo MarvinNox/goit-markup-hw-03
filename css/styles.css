@@ -243,7 +243,6 @@ ul {
   margin: 0 auto;
 }
 .contacts-list-item {
-  display: flex;
 }
 .link-nav {
   color: #2e2f42;
